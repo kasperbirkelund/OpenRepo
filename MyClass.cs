@@ -16,6 +16,7 @@ namespace OpenRepo
             if (con.State == ConnectionState.Closed)
             {
                 string s = "wharever";
+                string s2 = "wharever";
                 await con.OpenAsync();
             }
 
